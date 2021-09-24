@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100;1,400&display=swap");
+
+body {
+  background: linear-gradient(to left, #b5838d, #6d6875);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #e9ecef;
+  color: #1c1c1c;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 10rem auto;
+  padding: 4rem;
+  max-width: 40rem;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 500;
+  font-size: 27px;
+  text-shadow: 1px 1px 2px #6c757d;
+  line-height: 8px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 10px;
+}
+
+.titulo h4 {
+  font-weight: 100;
+  font-size: 12px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px #6c757d;
+  line-height: 2px;
+  color: black;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 16px;
+  background: #dee2e6;
+  border: 2px solid #495057;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.tema button:hover {
+  background-color: #adb5bd;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+ul {
+  padding: 0;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #adb5bd, #ced4da);
+  color: #1c1c1c;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.projetos a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 14px;
+}
+
+.projetos a:hover {
+  color: #b5838d;
+}
+
+.projetos-titulo {
+  font-weight: 400;
+  font-size: 17px;
+  font-style: normal;
+  color: #b5838d;
+  text-shadow: 1px 1px 2px #495057;
+}
+
+.projetos li {
+  color: #b5838d;
+  margin-top: 2px;
+  font-size: 0.9rem;
+  text-shadow: 1px 1px 2px #6c757d;
+}
+
+.dark {
+  background: linear-gradient(to right, #212529, #6c757d);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f7f7f7;
+  text-shadow: 1px 1px 2px black;
+}
+
+.dark .titulo h4 {
+  color: #f7f7f7;
+  text-shadow: 1px 1px 2px black;
+}
+
+.dark .projetos {
+  background: linear-gradient(to right, #495057, #6c757d);
+  color: #f7f7f7;
+  text-shadow: 1px 1px 2px black;
+}
+
+.dark .projetos-titulo {
+  color: #f7f7f7;
+  text-shadow: 1px 1px 2px #495057;
+}
+
+.dark .projetos li {
+  color: #f7f7f7;
+  text-shadow: 1px 1px 2px black;
+}
+
+.dark .projetos a {
+  color: #f7f7f7;
+  text-shadow: 1px 1px 2px black;
+}
+
+.dark .projetos a:hover {
+  color: black;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: white;
+  border: 2px solid #6c757d;
+}
+
+.dark .tema button:hover {
+  background: #343a40;
+}
